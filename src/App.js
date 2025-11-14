@@ -7,6 +7,7 @@ import Events from "./components/Events";
 import ReservationForm from "./components/ReservationForm";
 import Budget from "./components/Budget";
 import Experiences from "./components/Experiences";
+import Map from "./components/Map";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/reserve" element={<ReservationForm />} />
           <Route path="/budget" element={<Budget />} />
           <Route path="/experiences" element={<Experiences />} />
+          <Route path="/map" element={<Map />} />
         </Routes>
       </div>
     </div>

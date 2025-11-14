@@ -8,5 +8,14 @@
   </head>
   <body>
     <div id="root"></div>
+    <!-- carga tu módulo del mapa -->
+    <script type="module" src="/src/components/Map.js"></script>
+
+    <!-- Google Maps JS: debe cargarse después para que window.initMap exista.
+         Reemplaza YOUR_API_KEY por tu clave y elimina &callback si prefieres
+         inicializar manualmente. -->
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    </script>
   </body>
 </html>
