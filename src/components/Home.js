@@ -4,8 +4,6 @@ function Home() {
   return (
     <div className="home-root">
       <header className="hero">
-        {/* 🚀 LOGO AGREGADO AQUÍ para que lo estilicen tus clases CSS */}
-        <img src="logo.png" alt="Logo Co'ox Travel" className="hero-logo" /> 
 
         <div className="hero-content">
           <h1 className="hero-title">
